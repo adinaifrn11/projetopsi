@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px auto 0 auto; 
+    min-height: 100vh;
+}
+
+.titulo {
+    background-color: #0d1b3d;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 100%;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+}
+
+header button {
+    color: #0d1b3d;
+    background-color: white;
+}
+
+.campo label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.campo input,
+.campo textarea {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+button {
+    grid-column: 3;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: orange;
+    font-weight: bold;
+}
+
+header {
+    background-color: #0d1b3d;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.logo img {
+    width: 90px;
+    height: 60px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+header {
+  background-color: #0d1b3d;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   width: 100vw;
+ 
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+.logo {
+  font-size: 24px;
+}
+.logo img{
+    width: 90px;
+    height: 60px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.etiqueta {
+  background-color: #0d1b3d;
+  color: #F85D1A;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.form-pagamento {
+  background-color: #F85D1A;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+  min-width: 200px;
+}
+
+label {
+  font-weight: bold;
+  color: #000;
+}
+
+input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+}
+
+.mensalidade {
+  margin-top: 30px;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button {
+  position: absolute;
+  right: 20px;
+  bottom: -30px;
+  background-color: #d9d9d9;
+  color: orange;
+  margin-top: 50px;
+  gap: 24px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid blue;
+}

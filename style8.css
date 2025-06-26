@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+header {
+  background-color: #0d1b3d;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+  width: 100vw;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.boas-vindas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 30px;
+  background-color: #fffaf3;
+  border-radius: 0 0 10px 10px;
+}
+
+.botoes-laterais {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn-laranja {
+  background-color: orange;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  width: 250px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn-laranja:hover {
+  background-color: #e45700;
+}
+
+.conteudo-texto {
+  text-align: center;
+  flex: 1;
+
+}
+
+.conteudo-texto img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-left: 300px;
+}
+
+.conteudo-texto h2 {
+  font-size: 26px;
+  color: #1e1e1e;
+  margin-left: 300px;
+}
+
+.destaque {
+  color: #f85d1a;
+  font-weight: bold;
+}
+.logo img{
+    width: 90px;
+    height: 60px;
+}

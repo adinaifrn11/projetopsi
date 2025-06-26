@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+header {
+  background-color: #0d1b3d;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.container-hoteis {
+  background-color: white;
+  padding: 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+.titulo-botao {
+  background-color: #0d1b3d;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto 30px;
+  max-width: 500px;
+}
+
+.grid-hoteis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px;
+  margin-left: 150px;
+}
+
+.grid-hoteis img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.logo img {
+  width: 90px;
+  height: 60px;
+}

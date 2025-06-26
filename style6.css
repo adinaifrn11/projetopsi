@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  justify-content: center;
+  min-height: 100vh;
+}
+.logo {
+  font-size: 24px;
+}
+.logo img{
+    width: 90px;
+    height: 60px;
+}
+
+
+header {
+  background-color: #0d1b3d;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   width: 100vw;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.container-ofertas {
+  background-color: white;
+  padding: 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+.btn-oferta {
+  background-color: #0d1b3d;
+  color: orange;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  margin: 0 auto 30px;
+  display: block;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid orange;
+  border-radius: 10px;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #000;
+}
+
+.card a {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: orange;
+  font-weight: bold;
+  text-decoration: none;
+}
