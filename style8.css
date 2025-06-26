@@ -64,7 +64,7 @@ nav a {
   transition: 0.3s;
 }
 
-.btn-laranja:hover {
+.btn-laranja:hover {  /*houver como pesseudo classe para mudar de cor*/
   background-color: #e45700;
 }
 

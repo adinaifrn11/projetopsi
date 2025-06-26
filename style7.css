@@ -50,7 +50,7 @@ nav a {
   max-width: 500px;
 }
 
-.grid-hoteis {
+.grid-hoteis { /*display grid para colocar as imagens em grades*/
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 50px;
